@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="scauto_x"
+version="1.0.2-server-enabled"
+displayName="SCAuto"
+authors="Duox"
+description='''
+Client-side SCAuto variant that can also run when connected to a multiplayer server.
+'''
+
+[[mixins]]
+config="scauto_x.mixins.json"
+
+[[dependencies.scauto_x]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.233,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.scauto_x]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
